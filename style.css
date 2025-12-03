@@ -152,3 +152,79 @@ form{
     flex-direction: column;
     gap: 20px;
 }
+
+label{
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 0px;
+    display: block;
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select{
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+/*getting my email submission on my front page was really annoying and copilot as well as gpt gave me a bunch of useful resources to learn how to make this*/
+
+input[type="email"]:focus{
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+/*focus mgiht be one of my favorite css properties right now because of the niche applications*/
+/*transition is saucy too*/
+
+textarea{
+    resize: vertical;
+    min-height: 10px;
+}
+
+button{
+    background-color: #2a5a48;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center;
+}
+
+button:hover{
+    background-color: #87d3b7;
+    color: #000000;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
+    transition: color 0.1 ease, box-shadow 0.3s ease;
+}
+
+#email{
+    background-color: #ececec;
+}
+
+.container{
+    position: relative;
+}
+
+footer{
+    background-color: #173128;
+    color: #ffffff;
+    text-align: center;
+    padding: 2px;
+    margin-top: 80px;
+    border-radius: 1px;
+}
+
+footer p{
+    margin: 2px;
+    font-size: 1rem;
+    text-align: center;
+}
