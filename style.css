@@ -104,13 +104,40 @@ article img{
     box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
 }   
 
-address{
-    display: inline;
-    font-style: normal;
-    font-weight: bold;
-    color: #3498db;
+.float-image{
+    float: right;
+    margin: 0px 20px 20px 20px;
+    max-width: 200px;
 }
+
+.float-image img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
+}
+/* another weird class that i had to learn specifically to size down my gigantic image, took me like 10 minutes of digging and reading to find how to fix it*/
+
+.caption{
+    font-style:italic;
+    text-align: right;
+    color:#2a5a48;
+    margin-top: 5px;
+    font-size: 0.9rem;
+    display: block;
+    width: 100%;
+}
+
+address{
+    font-style: italic;
+    display: inline;
+    font-weight: bold;
+    color: #3a59af;
+}
+
 time{
+    display: block;
+    margin-top: 10px;
     font-style: italic;
     color: #7f8c8d;
 }
