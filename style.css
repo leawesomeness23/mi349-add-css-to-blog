@@ -259,8 +259,9 @@ footer p{
 
 .two-column-layout{
     display: flex;
-    gap: 200px;
+    gap: 190px;
     margin-top: 20px;
+    margin-left: 30px;
 }
 
 .interests-column h3{
